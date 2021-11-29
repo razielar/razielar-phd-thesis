@@ -1,1 +1,2 @@
-# raziel-phd-thesis
+# Raziel Amador Rios PhD Thesis
+
