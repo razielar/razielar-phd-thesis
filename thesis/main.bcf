@@ -2952,6 +2952,10 @@
     <bcf:citekey order="453">zhao_2011_optimizing</bcf:citekey>
     <bcf:citekey order="454">bryzghalov_2021_lncevo</bcf:citekey>
     <bcf:citekey order="455">schor_2018</bcf:citekey>
+    <bcf:citekey order="456">wucher_2017</bcf:citekey>
+    <bcf:citekey order="457">wucher_2017</bcf:citekey>
+    <bcf:citekey order="458">paolo_nextflow</bcf:citekey>
+    <bcf:citekey order="459">pedregosa_2011_scikit</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
