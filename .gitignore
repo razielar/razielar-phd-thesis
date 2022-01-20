@@ -2,10 +2,11 @@
 *~
 *.out
 *.log
-*.bcf
 *.aux
 *.run.xml
 *.toc
 *.lof
 *.lot
+*.bbl
+*.blg
 
