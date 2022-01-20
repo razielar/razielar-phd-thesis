@@ -9,4 +9,6 @@
 *.lot
 *.bbl
 *.blg
+pdf.output/
+
 
