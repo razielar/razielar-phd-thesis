@@ -6,4 +6,6 @@
 *.aux
 *.run.xml
 *.toc
+*.lof
+*.lot
 
