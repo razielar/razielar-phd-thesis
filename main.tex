@@ -1,0 +1,80 @@
+\documentclass[10pt,twoside]{book}
+
+\usepackage{Razielstyle}
+\addbibresource{library.bib}
+
+\begin{document}
+
+% <<< prevent words from overflowing into the margin
+\emergencystretch 3em
+% >>> prevent words from overflowing into the margin
+
+\frontmatter
+
+\input{cover}
+
+\chapter{Acknowledgments}
+\input{acknowledgments}
+\clearpage
+
+\chapter{Abstract}
+\input{abstract}
+\clearpage
+
+\chapter{Table of Contents}
+\tableofcontents % Generates table of contents from sections and subsections
+\clearpage
+
+\chapter{List of Figures}
+\listoffigures
+\clearpage
+
+\chapter{List of Tables}
+\listoftables
+\clearpage
+
+\chapter{List of Abbreviations}
+\input{abbreviations}
+\clearpage
+
+\mainmatter
+
+\chapter{Introduction}
+\clearpage
+
+\input{introduction}
+\clearpage
+
+\chapter{Objectives}
+\clearpage
+
+\input{objectives}
+\clearpage
+
+\chapter{Materials and Methods}
+\clearpage
+
+\input{methods}
+\clearpage
+
+\chapter{Results and Discussion}
+\clearpage
+\input{results}
+\clearpage
+
+\chapter{Conclusions}
+\clearpage
+\input{conclusions}
+
+\chapter{Bibliography}
+\clearpage
+\begin{multicols}{2}
+\printbibliography[heading=none]
+\end{multicols}
+
+\chapter{Appendix}
+\clearpage
+\input{appendix}
+\clearpage
+
+\end{document}
