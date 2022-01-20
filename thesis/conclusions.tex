@@ -1,0 +1,17 @@
+The main conclusion of the present Thesis Project are the following: 
+
+\begin{enumerate}
+
+\item Adding cell-specific ENCODE TF ChIP-seq data to CRISPRi functional screen data improves ML model performance and increases the biological explainability for hit predictions. Moreover, for our hit dataset, acting on the cost-function instead of under-sampling the majority class (not hit) shows better performance for AUROC, sensitivity, and specificity metrics.
+
+\item Cost-sensitive XGBoost classifier with 71 features (16 genomic features plus 55 TF ChIP-seq related features) is 10\% more reliable, in terms of AUROC, than other algorithms in discerning between hits and not hits. Additionally, sensitivity and specificity values are balanced across the seven human cell lines. 
+  
+\item Hit predictions from our trained classifier are a valuable tool to uncover lncRNAs affecting cell-growth rates. The lncRNA \textit{LINC00879} is a successful example for our ML algorithm. Further, "\textit{Distance between lncRNA-TSS and PC}", "\textit{expression level}", and "\textit{number of TFs with ChIP-seq signal}" are the top 3 most important features for our classifier.
+
+\item There are key lncRNAs involved during \textit{Drosophila} wing imaginal disc regeneration process. Such lncRNAs are mainly present at the early stage with low sequence-conservation; presenting time point and condition specific expression patterns.
+
+\item Upon \textit{CR40469} genetic deletion in regeneration conditions, there is a significant transcriptomic alteration. Such differentially expressed genes are mostly localized in the X chromosome, suggesting a \textit{trans-acting} mechanism of the lncRNA \textit{CR40469} in the fruit fly X chromosome.  
+
+\end{enumerate}
+
+
