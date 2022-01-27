@@ -6,6 +6,7 @@ To compile the file you need to do the following:
 
 ```{bash}
 
+git clone https://github.com/razielar/razielar-phd-thesis.git
 cd thesis
 ./buildThesis.sh
 
