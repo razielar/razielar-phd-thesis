@@ -33,4 +33,4 @@ cd thesis
 ./buildThesis.sh
 
 ```
-The bash-script will generate **pdf.output** directory with the Thesis compliled.
+The bash-script will generate the **pdf.output** directory with the Thesis compliled.
